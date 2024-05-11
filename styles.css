@@ -8,6 +8,7 @@ body {
   align-items: center;
   background-color: rgb(182, 243, 182);
   height: 100vh;
+  padding-left: 2rem;
 }
 .section-2,
 .section-3,
