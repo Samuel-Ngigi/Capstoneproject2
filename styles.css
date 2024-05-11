@@ -1,0 +1,55 @@
+body {
+  line-height: 2;
+}
+.section-1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(182, 243, 182);
+  height: 100vh;
+}
+.section-2,
+.section-3,
+.section-4 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  min-height: 80vh;
+  height: auto;
+}
+.profile-pic {
+  width: 15rem;
+  height: 15rem;
+  border-radius: 50%;
+}
+h1 {
+  color: rgb(111, 244, 111);
+}
+h3 {
+  color: rgb(39, 233, 39);
+}
+p {
+  font-size: 1.5rem;
+  font-family: "Courier New", Courier, monospace;
+}
+button {
+  background-color: rgb(39, 233, 39);
+  border: none;
+  border-radius: 8px;
+  width: 8rem;
+  height: 2.5rem;
+}
+button:hover {
+  cursor: pointer;
+}
+footer {
+  height: 10vh;
+  width: 100vw;
+  background-color: rgb(182, 243, 182);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
